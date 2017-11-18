@@ -20,13 +20,13 @@ requirements:
     - pkg-config
     - protobuf 3.4.*
     - ncurses 5.9*
-    - zlib 1.2.*
+    - zlib 1.2.11
     - openssl 1.0.*
     - perl
   run:
     - protobuf 3.4.*
     - ncurses 5.9*
-    - zlib 1.2.*
+    - zlib 1.2.11
     - openssl 1.0.*
     - perl
 
