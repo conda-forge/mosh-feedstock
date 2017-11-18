@@ -1,6 +1,6 @@
 {% set name = "mosh" %}
-{% set version = "1.2.6" %}
-{% set sha256 = "82b4c52adc527d802351a4d1ba0b193ee3dfc9b3e203b4919516f6ae0e471a72" %}
+{% set version = "1.3.2" %}
+{% set sha256 = "da600573dfa827d88ce114e0fed30210689381bbdcff543c931e4d6a2e851216" %}
 
 package:
   name: {{ name|lower }}
@@ -12,22 +12,21 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   skip: True  # [win]
 
 requirements:
   build:
-    - toolchain
     - pkg-config
-    - protobuf
-    - libprotobuf  # [linux]
+    - protobuf 3.4*
+    - libprotobuf 3.4* # [linux]
     - ncurses 5.9*
     - zlib 1.2.*
     - openssl 1.0.*
     - perl
   run:
-    - libprotobuf  # [linux]
-    - protobuf  # [osx]
+    - libprotobuf 3.4* # [linux]
+    - protobuf 3.4* # [osx]
     - ncurses 5.9*
     - zlib 1.2.*
     - openssl 1.0.*
