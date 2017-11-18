@@ -18,13 +18,13 @@ build:
 requirements:
   build:
     - pkg-config
-    - protobuf
+    - protobuf 3.4.*
     - ncurses 5.9*
     - zlib 1.2.*
     - openssl 1.0.*
     - perl
   run:
-    - protobuf
+    - protobuf 3.4.*
     - ncurses 5.9*
     - zlib 1.2.*
     - openssl 1.0.*
