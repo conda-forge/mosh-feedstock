@@ -17,6 +17,7 @@ build:
 
 requirements:
   build:
+    - toolchain
     - pkg-config
     - protobuf 3.4.*
     - ncurses 5.9*
