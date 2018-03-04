@@ -19,13 +19,13 @@ requirements:
   build:
     - toolchain
     - pkg-config
-    - protobuf 3.5.*
+    - libprotobuf 3.5.*
     - ncurses 5.9*
     - zlib 1.2.11
     - openssl 1.0.*
     - perl
   run:
-    - protobuf 3.5.*
+    - libprotobuf 3.5.*
     - ncurses 5.9*
     - zlib 1.2.11
     - openssl 1.0.*
