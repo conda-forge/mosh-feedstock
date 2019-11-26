@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '4'
+- '9'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -11,9 +11,9 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '4'
+- '9'
 libprotobuf:
-- '3.8'
+- '3.11'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
@@ -23,10 +23,8 @@ ncurses:
 openssl:
 - 1.1.1a
 perl:
-- '5.26'
+- 5.26.2
 pin_run_as_build:
-  libprotobuf:
-    max_pin: x.x
   ncurses:
     max_pin: x.x
   openssl:
