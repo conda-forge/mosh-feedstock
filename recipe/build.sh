@@ -1,6 +1,4 @@
-# See https://github.com/conda-forge/toolchain-feedstock/pull/11
-export CXXFLAGS="${CXXFLAGS} -I${PREFIX}/include"
-export LDFLAGS="${LDFLAGS} -L${PREFIX}/lib"
+rm version
 
 ./configure --prefix="${PREFIX}" \
             --with-ncurses \
