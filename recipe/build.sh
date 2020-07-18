@@ -1,5 +1,3 @@
-rm version
-
 ./configure --prefix="${PREFIX}" \
             --with-ncurses \
             --with-curses=$PREFIX \
