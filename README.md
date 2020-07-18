@@ -5,7 +5,7 @@ Home: https://mosh.org/
 
 Package license: GPLv3+
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Mobile shell that supports roaming and intelligent local echo
 
