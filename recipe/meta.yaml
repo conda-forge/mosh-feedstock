@@ -7,7 +7,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://mosh.org/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
@@ -39,8 +38,7 @@ test:
 
 about:
   home: https://mosh.org/
-  license: GPLv3+
-  license_family: GPL3
+  license: GPL-3.0-or-later
   license_file: COPYING
   summary: 'Mobile shell that supports roaming and intelligent local echo'
 
