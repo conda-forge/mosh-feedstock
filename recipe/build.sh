@@ -1,10 +1,12 @@
-# See https://github.com/conda-forge/toolchain-feedstock/pull/11
-export CXXFLAGS="${CXXFLAGS} -I${PREFIX}/include"
-export LDFLAGS="${LDFLAGS} -L${PREFIX}/lib"
+#!/bin/bash
 
 ./configure --prefix="${PREFIX}" \
             --with-ncurses \
             --with-curses=$PREFIX \
-            --with-crypto-library=openssl
-make -j"${CPU_COUNT}"
-make install
+            --with-crypto-library=openssl \
+            --disable-dependency-tracking
+mkdir include
+make version.h
+cp config.h version.h include/
+make -j${CPU_COUNT} DEFAULT_INCLUDES="-I$(pwd)/include"
+make install DEFAULT_INCLUDES="-I$(pwd)/include"
