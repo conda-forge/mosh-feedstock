@@ -3,7 +3,7 @@ About mosh
 
 Home: https://mosh.org/
 
-Package license: GPLv3+
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mosh-feedstock/blob/master/LICENSE.txt)
 
@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@gokceneraslan](https://github.com/gokceneraslan/)
+* [@xhochy](https://github.com/xhochy/)
 
