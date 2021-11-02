@@ -13,7 +13,7 @@ source:
     - toplevel-bind.patch
 
 build:
-  number: 1009
+  number: 1010
   skip: True  # [win]
 
 requirements:
