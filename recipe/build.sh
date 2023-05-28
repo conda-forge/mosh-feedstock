@@ -2,6 +2,7 @@
 
 set -euxo pipefail
 
+export CXXFLAGS="$CXXFLAGS -std=c++17"
 ./autogen.sh
 ./configure --prefix="${PREFIX}" \
             --with-ncurses \
