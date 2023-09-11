@@ -1,11 +1,7 @@
-BUILD:
-- aarch64-conda_cos7-linux-gnu
 c_compiler:
 - gcc
 c_compiler_version:
 - '12'
-cdt_arch:
-- aarch64
 cdt_name:
 - cos7
 channel_sources:
@@ -19,7 +15,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 libprotobuf:
-- 4.23.3
+- 4.23.4
 ncurses:
 - '6'
 openssl:
@@ -27,7 +23,7 @@ openssl:
 perl:
 - 5.32.1
 target_platform:
-- linux-aarch64
+- linux-ppc64le
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
