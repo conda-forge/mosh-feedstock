@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://mosh.org/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/mobile-shell/mosh/releases/download/mosh-{{ version }}/mosh-{{ version }}.tar.gz
   sha256: 872e4b134e5df29c8933dff12350785054d2fd2839b5ae6b5587b14db1465ddd
 
 build:
