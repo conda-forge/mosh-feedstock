@@ -18,6 +18,8 @@ cxx_compiler:
 - clangxx
 cxx_compiler_version:
 - '19'
+libabseil:
+- '20260526'
 libprotobuf:
 - 7.35.1
 macos_machine:
