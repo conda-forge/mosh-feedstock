@@ -10,11 +10,10 @@ Package license: GPL-3.0-or-later
 Summary: Mobile shell that supports roaming and intelligent local echo
 
 Mosh is a remote terminal application that supports:
-    - intermittent network connectivity,
-    - roaming to different IP address without dropping the connection, and
-    - intelligent local echo and line editing to reduce the effects
-      of "network lag" on high-latency connections.
-
+- intermittent network connectivity,
+- roaming to different IP address without dropping the connection, and
+- intelligent local echo and line editing to reduce the effects
+of "network lag" on high-latency connections.
 
 Current build status
 ====================
@@ -45,6 +44,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=639&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mosh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=639&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mosh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
